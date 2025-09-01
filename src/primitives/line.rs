@@ -15,8 +15,7 @@ impl Line {
     }
 
     pub fn length(&self) -> f64 {
-        ((self.p1.get_x() - self.p2.get_x()).powi(2) + (self.p1.get_y() - self.p2.get_y()).powi(2))
-            .sqrt()
+        self.p1.distance_to(self.p2)
     }
 }
 

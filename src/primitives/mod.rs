@@ -2,5 +2,5 @@
 pub mod angle;
 pub mod line;
 pub mod point;
-pub mod surface;
-pub mod vector;
+pub mod surfaces;
+pub mod vectors;
